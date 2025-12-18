@@ -9,7 +9,7 @@ interface Props {
 
 const FilmsList: React.FC<Props> = ({films, delFilm}) => {
     return (
-        <div>
+        <div>{films.length > 0 ? (<p className="mb-0">To watch list:</p>) : 'There is nothing here yet'}
             {films.map(film => {
                 return <FilmInput key={film.id}
                                   film={film}

@@ -15,7 +15,7 @@ const Films = () => {
     }
 
     return (
-        <div className="container-lg mt-3">
+        <div className="container-lg mt-3 mb-5">
             <FilmsForm addFilm={addFilm}/>
             <FilmsList films={films} delFilm={deleteFilm}/>
         </div>

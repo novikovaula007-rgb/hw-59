@@ -4,5 +4,9 @@ export interface FilmInterface {
 }
 
 export interface Film {
-    name: string
+    name: string;
+}
+
+export interface Joke {
+    value: string;
 }
