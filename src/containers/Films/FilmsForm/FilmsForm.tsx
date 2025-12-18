@@ -1,9 +1,5 @@
 import React, {useState} from 'react';
-import type {FilmInterface} from "../../../types";
-
-interface Film {
-    name: string
-}
+import type {Film, FilmInterface} from "../../../types";
 
 interface Props {
     addFilm: (film: FilmInterface) => void;
